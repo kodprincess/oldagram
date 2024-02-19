@@ -38,7 +38,7 @@ function setValueTo(node, className, value) {
     }
 }
 
-function renderPosts(element, template, keys) {
+function renderPosts() {
     for(let i=0; i < posts.length; i++) {
         let postEl = postTemplate.cloneNode(true)
 
