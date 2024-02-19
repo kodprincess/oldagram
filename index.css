@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font: normal 16px 'Source Sans 3', sans-serif;
+    background-color: #eee;
+}
+
+.container {
+    width: 375px;
+    margin: auto;
+    background-color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+    width: 125px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 20px;
+}
+
+.user-info-container {
+    padding: 10px;
+    display: flex;
+}
+
+.user-info p {
+    margin: 1px;
+    margin-left: 8px;
+    margin-bottom: -3px;
+    padding: 0;
+    font-size: 13px;
+}
+
+.user-info .user-name {
+    font-weight: bold;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-body {
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.post-body p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.post-actions {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.post-action {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.post-like-count p {
+    font-weight: bold;
+}
+
+.post-comment-container .username {
+    font-weight: bold;
+}
