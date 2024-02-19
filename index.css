@@ -65,12 +65,31 @@ header .logo {
 .post-actions {
     margin-top: 10px;
     margin-bottom: 5px;
+    user-select: none;
 }
 
 .post-action {
+    display: inline-block;
     width: 25px;
     height: 25px;
     margin-right: 10px;
+    background-size: contain;
+}
+
+.like-action {
+    background-image: url('images/icon-heart.png');
+}
+
+.like-action-selected {
+    background-image: url('images/icon-heart-selected.png');
+}
+
+.comment-action {
+    background-image: url('images/icon-comment.png');    
+}
+
+.dm-action {
+    background-image: url('images/icon-dm.png');    
 }
 
 .post-like-count p {
